@@ -79,6 +79,8 @@ body{
     margin-right: 16px;
 }
 
+
+
 .food_box img{
     width: 144px;
     height: 87px;
@@ -103,9 +105,18 @@ body{
 }
 
 .food_box .food_price {
+    display: flex;
+    justify-content: space-between;
     width: 144px;
     font-size: 16px;
     font-weight: bold;
+}
+
+.tick {
+    color: green;
+}
+.hidden{
+    display:none;
 }
 
 .select_menu{
@@ -118,15 +129,30 @@ body{
     align-items: center;
     height: 92px;
     width: 100%;
-    background-color: blue;
+    background-color: white;
 }
 
 .select_menu button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
     border-radius: 200px;
     background-color: #CBCBCB;
     color: #FFFFFF;
-    width: 364px;
+    min-width: 364px;
     height: 61px;
     font-size: 20px;
 }
 
+.button_text{
+    width: 185px;
+}
+
+.selected{
+    border: 1px solid green;
+}
+
+.activated{
+    background-color: green;
+}
