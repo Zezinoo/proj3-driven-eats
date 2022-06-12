@@ -1,0 +1,30 @@
+00:25:06	Luiz Henrique Costa:	belezinha
+00:28:08	Victor Cid:	eu já indico sem nem ganhar nada. rs
+00:28:41	Israel Felipe Teixeira:	Meeee, vou sair divulgando. Se conseguir uns 35 já ta bom kkk
+00:29:09	Yésssica Stern:	já paga o curso
+00:29:13	Caio Ruiz Coldebella:	a melhor forma de evitar travamento do windows
+00:29:15	Giovanni Z Marcatto:	Bem q achei ter visto esse Combinado Linux mais cedo nos materiais kkk
+00:29:21	Caio Ruiz Coldebella:	desinstalar e baixar o linux
+00:30:48	leticia pandorf:	de quantos gb precisa ter o pen drive pra instalar o  Linux?
+00:30:57	Luiz Henrique Costa:	8gb no minimo
+00:31:00	Weiller Sousa Amaral Carvalho Mello:	8
+00:31:22	Victor Cid:	vcs ajudam tbm em como fazer uma virtual pro linux? ou fazer 2 instalações...sei lá sei dá. rs
+00:31:31	[Driven] Tiago Rosa:	pessoal, coloquem as duvidas lá no slido
+00:31:51	Luciano Santos:	cabe o dotinha?
+00:31:56	Lucas Felipe:	cabe
+00:33:36	Robinson Carvalho:	vou usar meu hd externo pra isso kkkk, pen drive foi pro ralo
+00:33:53	Bismarck Nóbrega:	cabo o lolzinho
+00:34:04	Lucas Felipe:	da pra fazer dual boot gals
+00:34:12	Igor Tamuz:	Se eu tiver uma partição de 100gb livres, tem como instalar o Linux la? manter o Windows um e Linux no outro, show?
+00:34:13	Lucas Felipe:	precisa excluir o Windows n
+00:34:22	Igor Tamuz:	nice
+00:34:24	Caio Ruiz Coldebella:	tem
+00:34:27	Lucas Felipe:	da pra manter até no mesmo com o grub
+00:34:54	Lucas Felipe:	mas é o seguinte tem que instalar o Linux depois do Windows pq o Linux já cria o grub de dual boot
+00:35:23	Caio Ruiz Coldebella:	nao precisa
+00:35:31	Caio Ruiz Coldebella:	da pra tu instalar o grub depois
+00:35:38	Lucas Felipe:	mas da mais trampo
+00:35:50	Lucas Felipe:	kkkk
+00:35:52	Caio Ruiz Coldebella:	ah sim, um pouco
+00:36:34	Lucas Felipe:	ai pra quem n em costume com dual boot é mais fácil por o Linux depois
+01:33:32	Leandro:	Forms de Feedback: https://respondea.typeform.com/to/oFyRlbNB

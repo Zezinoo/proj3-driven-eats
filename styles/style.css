@@ -132,13 +132,12 @@ body{
     background-color: white;
 }
 
-.select_menu button{
+.select_menu .button{
     display: flex;
     justify-content: center;
     align-items: center;
     border: 0px;
     border-radius: 200px;
-    background-color: #CBCBCB;
     color: #FFFFFF;
     min-width: 364px;
     height: 61px;
@@ -146,11 +145,19 @@ body{
 }
 
 .button_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 185px;
+    font-family: Roboto;
 }
 
 .selected{
-    border: 1px solid green;
+    border: 5px solid green;
+}
+
+.deactivated{
+    background-color:#CBCBCB;
 }
 
 .activated{
