@@ -1,11 +1,14 @@
 let main_course
 let drink
 let dessert
+let main_course_price
+let drink_price
+let dessert_price
 
 
 function selectMainCourse(element){
-    let price = element.children[3];
-    let tick = price.children[0];
+    main_course_price = element.children[3];
+    let tick = main_course_price.children[0];
     main_course = element.children[1].innerHTML
  
     const clickedBox = document.querySelector('.main_course .selected')
@@ -29,8 +32,8 @@ function selectMainCourse(element){
     return element.children[1]
 }
 function selectDrink(element){
-    let price = element.children[3];
-    let tick = price.children[0];
+    drink_price = element.children[3];
+    let tick = drink_price.children[0];
     drink = element.children[1].innerHTML
  
     const clickedBox = document.querySelector('.drink .selected')
@@ -54,8 +57,8 @@ function selectDrink(element){
     return element.children[1]
 }
 function selectDessert(element){
-    let price = element.children[3];
-    let tick = price.children[0];
+    dessert_price = element.children[3];
+    let tick = dessert_price.children[0];
     dessert = element.children[1].innerHTML
  
     const clickedBox = document.querySelector('.dessert .selected')
@@ -78,19 +81,20 @@ function selectDessert(element){
     activateOrder()
     return element.children[1]
 }
-
 function activateOrder(){
     let button = document.querySelector('.select_menu .button')
+    let a_tag = document.querySelector('.link')
     if(main_course && drink && dessert){
         button.classList.remove('deactivated')
         button.classList.add('activated')
         button.children[0].innerHTML = 'Fechar pedido'
+        a_tag.href = 'https://www.google.com/'
     }
     else{
         button.classList.add('deactivated')
         button.classList.remove('activated')
         button.children[0].innerHTML = 'Selecione os 3 itens para fechar o pedido'
+        a_tag.href = '#'
     }
 }
-
 
